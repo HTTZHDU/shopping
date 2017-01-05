@@ -60,13 +60,12 @@
 .banner_img {
     width: 806px;
     height: 324px;
-    background: #ffff00;
+    background: url(../images/banner/banner_01.jpg);
     float: right;
 }
 
 .pcBar {
     height: 76px;
-    background: #4bc7c7;
 }
 
 .pcContent {
@@ -223,4 +222,19 @@ dd a {
     color: #fff;
     margin: 2px;
     line-height: 18px;
+}
+.pc_icon{
+	width: 106px;
+	height: 44px;
+	background: url(../images/icon/shopIcon.jpg) left center no-repeat;
+	position: absolute;
+	top: 490px;
+	padding-left: 60px;
+	font-size: 20px;
+	line-height: 40px;
+}
+.pc_more{
+	float: right;
+	line-height: 68px;
+	font-size: 14px;
 }
