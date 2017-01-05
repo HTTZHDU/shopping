@@ -1,0 +1,226 @@
+/*公用*/
+
+.comWidth {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*topbar*/
+
+.topBar {
+    height: 31px;
+    background-color: #f7f7f7;
+    line-height: 31px;
+}
+
+.leftArea {
+    float: left;
+}
+
+.rightArea {
+    float: right;
+}
+
+.collection {
+    background: url(../images/icon/collection.jpg) left center no-repeat;
+    padding-left: 19px;
+    font-weight: bold;
+}
+
+.topBar a:hover {
+    color: #f00
+}
+
+
+/*logo*/
+
+.logoBar {
+    height: 85px;
+    background: #1D7AD9
+}
+
+.navBox {
+    height: 36px;
+    background: #1369c0
+}
+
+.banner {
+    background: #c7cbf1;
+    height: 324px;
+}
+
+.list {
+    width: 194px;
+    height: 324px;
+    float: left;
+}
+
+.banner_img {
+    width: 806px;
+    height: 324px;
+    background: #ffff00;
+    float: right;
+}
+
+.pcBar {
+    height: 76px;
+    background: #4bc7c7;
+}
+
+.pcContent {
+    height: 402px;
+    background: #5fb1bd;
+}
+
+.foodBar {
+    height: 76px;
+    background: #f3b23c;
+}
+
+.pcContent_img {
+    width: 806px;
+    height: 402px;
+    background: #8fc440;
+    float: right;
+}
+
+.foodContent {
+    height: 402px;
+    background: #53c7f8;
+}
+
+.foodContent_img {
+    width: 806px;
+    height: 402px;
+    background: #ec6500;
+    float: right;
+}
+
+.search_text {
+    width: 362px;
+    height: 36px;
+    background: #fff;
+    position: absolute;
+    left: 634px;
+    top: 56px;
+}
+
+.seratch_btn {
+    width: 68px;
+    height: 36px;
+    background: #ff8c00;
+    position: absolute;
+    top: 56px;
+    left: 996px;
+}
+
+.shopCar {
+    width: 145px;
+    height: 35px;
+    background-color: #FF8C00;
+    font: 14px/35px "Microsoft YaHei", "微软雅黑";
+    color: #FFF;
+    margin-right: 59px;
+    display: inline;
+    position: absolute;
+    left: 1094px;
+    top: 56px;
+}
+
+.shopText {
+    height: 100%;
+    width: 87px;
+    border-right: #E27A00 solid 1px;
+    background: url(../images/icon/shaoIcon.jpg) 10px center no-repeat;
+    padding-left: 40px;
+    text-indent: 40px;
+}
+
+.shopNum {
+    width: 27px;
+    height: 35px;
+    border-left: #FF9C01 solid 1px;
+    background: url(../images/icon/sj.jpg) 20px center no-repeat;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.logoBar img {
+    position: absolute;
+    top: 46px;
+}
+
+.shopClass {
+    width: 190px;
+    height: 36px;
+    float: left;
+}
+
+.shopClass h3 {
+    width: 190px;
+    height: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.shopClass_icon {
+    background: url(../images/icon/icon.png);
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 7px;
+    overflow: hidden;
+    background-position: 0 -39px;
+    display: inline-block;
+    margin-left: 11px;
+    vertical-align: middle;
+}
+
+.nav li {
+    display: inline-block;
+    width: 102px;
+    height: 36px;
+}
+
+.nav li a {
+    color: #fff;
+    float: right;
+    line-height: 35px;
+}
+
+.footBar {
+    height: 222px;
+    margin: 40px 0 10px 0;
+    background: #d4d4d4;
+}
+
+.shop_list {
+    background: #4593fd;
+    border-bottom: #3487F2 solid 1px;
+    border-top: #5AA1FE solid 1px;
+}
+
+dl {
+    padding: 13px 10px;
+}
+
+dt {
+    background: url(../images/icon/shop_sj.jpg)right center no-repeat;
+    overflow: hidden;
+}
+
+dt a {
+    margin: 4px;
+    font-size: 14px;
+    color: #fff;
+}
+
+dd a {
+    font-size: 10px;
+    color: #fff;
+    margin: 2px;
+    line-height: 18px;
+}
