@@ -70,24 +70,78 @@
 
 .pcContent {
     height: 402px;
-    background: #5fb1bd;
 }
 
 .foodBar {
     height: 76px;
-    background: #f3b23c;
 }
 
-.pcContent_img {
-    width: 806px;
-    height: 402px;
-    background: #8fc440;
+.food_icon {
+    width: 106px;
+    height: 44px;
+    background: url(../images/icon/shopIcon.jpg) left center no-repeat;
+    position: absolute;
+    top: 966px;
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.food_more {
     float: right;
+    line-height: 68px;
+    font-size: 14px;
+}
+
+.pcContent_img_right {
+    width: 808px;
+    height: 402px;
+    float: right;
+}
+
+.pcContent_img_left {
+    width: 192px;
+    height: 402px;
+    background: url(../images/banner/banner_sm_01.jpg);
+}
+
+.shopItem {
+    width: 200px;
+    height: 280px;
+    float: right;
+    border: 1px solid #e5e5e5;
+}
+
+.shopimg_small {
+    width: 200px;
+    height: 116px;
+    float: right;
+    border: 1px solid #e5e5e5;
+    border-bottom: 4px solid #ff7201;
+}
+
+.shop-imf {
+    width: 100px;
+    height: 116px;
+    float: right;
+    padding-top: 20px;
+}
+
+.shop-imf p {
+    color: #ff7300;
+    font-size: 12px;
+}
+
+.shop-imf h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #181818;
+    line-height: 30px;
 }
 
 .foodContent {
     height: 402px;
-    background: #53c7f8;
+/*    background: #53c7f8;*/
 }
 
 .foodContent_img {
@@ -155,6 +209,7 @@
     width: 190px;
     height: 36px;
     float: left;
+    cursor: pointer;
 }
 
 .shopClass h3 {
@@ -190,12 +245,6 @@
     line-height: 35px;
 }
 
-.footBar {
-    height: 222px;
-    margin: 40px 0 10px 0;
-    background: #d4d4d4;
-}
-
 .shop_list {
     background: #4593fd;
     border-bottom: #3487F2 solid 1px;
@@ -223,18 +272,45 @@ dd a {
     margin: 2px;
     line-height: 18px;
 }
-.pc_icon{
-	width: 106px;
-	height: 44px;
-	background: url(../images/icon/shopIcon.jpg) left center no-repeat;
-	position: absolute;
-	top: 490px;
-	padding-left: 60px;
-	font-size: 20px;
-	line-height: 40px;
+
+.pc_icon {
+    width: 106px;
+    height: 44px;
+    background: url(../images/icon/shopIcon.jpg) left center no-repeat;
+    position: absolute;
+    top: 490px;
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 40px;
 }
-.pc_more{
-	float: right;
-	line-height: 68px;
-	font-size: 14px;
+
+.pc_more {
+    float: right;
+    line-height: 68px;
+    font-size: 14px;
+}
+.foodContent_left {
+    width: 192px;
+    height: 402px;
+    background: url(../images/banner/banner_sm_02.jpg);
+}
+.foodContent_right {
+    width: 808px;
+    height: 402px;
+    float: right;
+}
+.footBar {
+    height: 222px;
+    margin: 40px 0 10px 0;
+    background: #d4d4d4;
+    text-align: center;
+    line-height: 24px;
+	font-size: 12px;
+	padding: 50px 0;
+}
+.footBar a{
+	color: #000;
+}
+.webLogo img{
+	padding: 40px 10px;
 }
