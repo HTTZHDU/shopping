@@ -47,7 +47,6 @@
 }
 
 .banner {
-    background: #c7cbf1;
     height: 324px;
 }
 
@@ -141,7 +140,7 @@
 
 .foodContent {
     height: 402px;
-/*    background: #53c7f8;*/
+    /*    background: #53c7f8;*/
 }
 
 .foodContent_img {
@@ -289,28 +288,127 @@ dd a {
     line-height: 68px;
     font-size: 14px;
 }
+
 .foodContent_left {
     width: 192px;
     height: 402px;
     background: url(../images/banner/banner_sm_02.jpg);
 }
+
 .foodContent_right {
     width: 808px;
     height: 402px;
     float: right;
 }
+
 .footBar {
     height: 222px;
     margin: 40px 0 10px 0;
     background: #d4d4d4;
     text-align: center;
     line-height: 24px;
-	font-size: 12px;
-	padding: 50px 0;
+    font-size: 12px;
+    padding: 50px 0;
 }
-.footBar a{
-	color: #000;
+
+.footBar a {
+    color: #000;
 }
-.webLogo img{
-	padding: 40px 10px;
+
+.webLogo img {
+    padding: 40px 10px;
+}
+
+
+/*产品分类样式*/
+
+.kong {
+    width: 100%;
+    height: 18px;
+}
+
+.digitalproducts {
+    width: 186px;
+    height: 836px;
+    color: #555555;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.dp_header {
+    width: 186px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 34px;
+}
+
+.dp_phone {
+    width: 186px;
+    height: 136px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.dp_camera {
+    width: 186px;
+    height: 116px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.canon {
+    width: 186px;
+    height: 94px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.camerashot {
+    width: 186px;
+    height: 54px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ccdcamera {
+    width: 186px;
+    height: 96px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ccdparts {
+    width: 186px;
+    height: 170px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.dgmemory {
+    width: 186px;
+    height: 56px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ele_edu {
+    width: 186px;
+    height: 98px;
+    padding: 16px 0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.dp_list{
+	line-height: 25px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+}
+.pc_content_title{
+	width: 180px;
+	height: 30px;
+	border-bottom: 3px solid #096dba;
+	position: absolute;
+	left: 356px;
+	line-height: 28px;
 }
