@@ -301,7 +301,6 @@ dd a {
     height: 402px;
     float: right;
 }
-
 .footBar {
     height: 222px;
     margin: 40px 0 10px 0;
@@ -310,8 +309,9 @@ dd a {
     line-height: 24px;
     font-size: 12px;
     padding: 60px 0;
+    position: relative;
+    bottom: 4px;
 }
-
 .footBar a {
     color: #000;
 }
@@ -630,7 +630,11 @@ li {
 
 
 /*筛选页样式*/
-
+.filter_content{
+	height: auto;
+	clear: both;
+	overflow: hidden;
+}
 .filter_left {
     width: 190px;
     height: auto;
@@ -681,7 +685,6 @@ li {
 
 .filter_right {
     width: 800px;
-    height: auto;
     display: inline-block;
     float: right;
 }
@@ -756,4 +759,151 @@ li {
     height: 36px;
     width: 190px;
     border-bottom: 1px dotted #d9d9d9;
+}
+.ph_select{
+	width: 80px;
+	height: 36px;
+}
+.middle{
+	width: 800px;
+	height: 38px;
+	background: #f5f5f5;
+}
+.middle p{
+	margin-left: 10px;
+	line-height: 36px;
+	position: relative;
+	float: left;
+}
+.middle select{
+	width: 110px;
+	height: 30px;
+	border:1px solid #d9d9d9;
+	position: relative;
+	float:left;
+	background: #fff;
+	margin: 4px;
+}
+.middle input{
+	width: 18px;
+	height:18px;
+	position: relative;
+	margin: 10px;
+	display: inline-block;
+}
+.sel_che{
+	width: 200px;
+	height: 30px;
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+.sel_che p{
+	position: relative;
+	float: right;
+	margin-right: 20px;
+}
+.sel_che i{
+	color: #f00;
+}
+.ph_show_area{
+	width: 800px;
+	height: auto;
+	clear: both;
+}
+.ph_sel{
+	width: 200px;
+	height: 324px;
+	position: relative;
+	float: left;
+	margin-right:30px;
+	margin-left: 30px;
+}
+.price{
+	color: #f00;
+	font-weight: bold;
+}
+.shopingcar{
+	border:1px solid #c3d5e7;
+	width: 90px;
+	height: 22px;
+}
+.shopingcar img{
+	margin: 4px;
+	float:left;
+}
+.shopingcar p{
+	display: inline-block;
+	float: left;
+	line-height: 20px;
+	color: #3979c0;
+}
+.page_select{
+	width: 740px;
+	height: 36px;
+	margin:0 auto;
+	text-align: center;
+	line-height: 26px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.prepage{
+	width: 50px;
+	height: 26px;
+	border:1px solid #c9c9c9;
+	float: left;
+	margin: 4px;
+}
+.pagesmore{
+	width: 20px;
+	height: 26px;
+	float: left;
+	text-align: center;
+}
+.page_select p{
+	float: left;
+}
+.page_select input{
+	width: 26px;
+	height: 24px;
+	border:1px solid #c9c9c9;
+	margin: 4px;s
+}
+.pages{
+	width: 34px;
+	height: 26px;
+	border: 1px solid #c9c9c9;
+	margin: 4px;
+	float: left;
+}
+.nextpage{
+	width: 50px;
+	height: 26px;
+	border:1px solid #c9c9c9;
+	float: left;
+	margin: 4px;
+}
+.page_select button{
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+/*详情页样式*/
+
+.detail_before{
+	width: 1000px;
+	height: 592px;
+	border:1px solid #d9d9d9;
+	margin: 0 auto;
+}
+.det_left{
+	width: 313px;
+	height: 100%;
+	border-right: 1px solid #d9d9d9;
+}
+.det_right{
+	width: 690px;
+	height: 100%;
+	background: #d9d9d9;
 }
