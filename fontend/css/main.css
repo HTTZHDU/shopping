@@ -92,6 +92,7 @@
     font-size: 14px;
 }
 
+
 /*.pcContent_img_right {
     width: 808px;
     height: 402px;
@@ -326,9 +327,11 @@ dd a {
     width: 100%;
     height: 18px;
 }
+
 .banner_class {
-    height:1518px;
+    height: 1518px;
 }
+
 .digitalproducts {
     width: 186px;
     height: auto;
@@ -402,10 +405,12 @@ dd a {
     padding: 16px 0 0 16px;
     border-bottom: 1px solid #e5e5e5;
 }
-.shop_class_list{
-	float: right;
-	width: 810px;
+
+.shop_class_list {
+    float: right;
+    width: 810px;
 }
+
 .dp_list {
     line-height: 25px;
     display: inline-block;
@@ -415,17 +420,19 @@ dd a {
 }
 
 .pc_content_title {
-	width: 612px;
-	margin:0;
+    width: 612px;
+    margin: 0;
     height: 34px;
 }
-.pc_content_title h3{
-	width: 180px;
-	height: 34px;
-	line-height: 34px;
-	text-indent: 9px;
-	border-bottom: 3px solid #096dba;
+
+.pc_content_title h3 {
+    width: 180px;
+    height: 34px;
+    line-height: 34px;
+    text-indent: 9px;
+    border-bottom: 3px solid #096dba;
 }
+
 .pcContent_class {
     height: auto;
     clear: both;
@@ -433,18 +440,20 @@ dd a {
     padding-bottom: 60px;
 }
 
-.foodContent_class{
+.foodContent_class {
     height: auto;
     clear: both;
     overflow: hidden;
-/*    padding-bottom: 60px;*/
+    /*    padding-bottom: 60px;*/
 }
-.food_class{
-	height: auto;
-	width: 810px;
-	margin:0;
-	padding:10px;
+
+.food_class {
+    height: auto;
+    width: 810px;
+    margin: 0;
+    padding: 10px;
 }
+
 .food_content_title {
     width: 180px;
     height: 34px;
@@ -452,8 +461,299 @@ dd a {
     text-indent: 9px;
     border-bottom: 3px solid #096dba;
 }
-.pcContent_img_class_right{
-	width: 808px;
-	height: auto;
-	padding: 10px;
+
+.pcContent_img_class_right {
+    width: 808px;
+    height: auto;
+    padding: 10px;
+}
+
+
+/*登录样式*/
+
+.login_header {
+    width: 100%;
+    height: 86px;
+    background: #1d7ad9;
+}
+
+.login_header h3 {
+    font: 22px/85px "Microsoft YaHei", "微软雅黑";
+    color: #FFF;
+    text-align: center;
+}
+
+.login_content {
+    width: 462px;
+    height: 386px;
+    border: 1px solid #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+
+.login_input {
+    width: 310px;
+    height: 304px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    margin-bottom: 18px;
+}
+
+.login_tit {
+    color: #999999;
+}
+
+.login_text {
+    width: 306px;
+    height: 36px;
+    border: 1px solid #dddddd;
+    background: url(../images/icon/user_icon.jpg)right no-repeat;
+}
+
+.login li {
+    margin: 10px;
+}
+
+.check_tit {
+    display: inline-block;
+    float: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+s .check {
+    margin-right: 2px;
+    position: relative;
+    top: 2px;
+}
+
+li {
+    display: list-item;
+}
+
+.check_btn button {
+    width: 310px;
+    height: 36px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    background: url(../images/icon/login_btn.jpg);
+}
+
+.login_others_tit1 {
+    color: #999999;
+}
+
+.signup_index {
+    width: 100%;
+    height: 36px;
+    background: url(../images/icon/red_link.jpg) center no-repeat;
+}
+
+.signup_content_ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.signup_content_ul {
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup_content {
+    width: 634px;
+    height: 580px;
+    border: 1px solid #dddddd;
+    margin: 20px auto;
+}
+
+.signup_input {
+    width: 270px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    float: right;
+}
+
+.username_tit {
+    width: 110px;
+    height: 36px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.iocn-i {
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+    font-size: 20px;
+    color: #f00;
+    margin-right: 4px;
+}
+
+.checkimf {
+    width: 280px;
+    height: 36px;
+    display: inline-block;
+    position: relative;
+    left: 120px;
+}
+
+.checkimf input {
+    float: left;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.iagree {
+    display: inline-block;
+    float: left;
+}
+
+.signup_btn button {
+    width: 270px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background: url(../images/icon/submit.png);
+    position: relative;
+    left: 120px;
+}
+
+
+/*筛选页样式*/
+
+.filter_left {
+    width: 190px;
+    height: auto;
+    background: #f3f3f3;
+    display: inline-block;
+}
+
+.filter_tit {
+    font-size: 14px;
+}
+
+.fil {
+    border: 1px solid #d7d7d7;
+    border-collapse: collapse;
+}
+
+.fil dl {
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.fil dd {
+    margin-left: 20px;
+    padding: 4px;
+}
+
+.filter_class {
+    height: 36px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.filter_left_below {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+}
+
+#img {
+    display: inline-block;
+}
+
+#img_des {
+    width: 60%;
+    padding-top: 10px;
+    float: right;
+}
+
+.filter_right {
+    width: 800px;
+    height: auto;
+    display: inline-block;
+    float: right;
+}
+
+.normal {
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    height: 36px;
+    width: 190px;
+    position: relative;
+    float: left;
+    text-align: right;
+}
+
+.sel {
+    height: 36px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.right {
+    width: 550px;
+    height: auto;
+    position: relative;
+    float: right;
+}
+
+.fil_ph {
+    height: 36px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.fil_band {
+    height: auto;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.fil_size {
+    height: 36px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.fil_sys {
+    height: 36px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.fil_net {
+    height: 36px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.normal {
+    line-height: 36px;
+}
+
+.nonelimite a {
+    background: #1d7ad9;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+}
+
+.fil_more {
+    height: 36px;
+    width: 190px;
+    border-bottom: 1px dotted #d9d9d9;
 }
