@@ -327,7 +327,19 @@ dd a {
     width: 100%;
     height: 18px;
 }
-
+.kong_header{
+	width: 1000px;
+	height: 34px;
+	margin: 0 auto;
+}
+.kong_header a{
+	float: left;
+	margin-right: 4px;
+}
+.kong_header p{
+	float: left;
+	margin-right: 4px;
+}
 .banner_class {
     height: 1518px;
 }
@@ -901,9 +913,71 @@ li {
 	width: 313px;
 	height: 100%;
 	border-right: 1px solid #d9d9d9;
+	display: inline-block;
+	float: left;
+}
+.bigpic{
+	width: 268px;
+	height: 320px;
+	margin: 0 auto;
+	background: url(../images/des_big.jpg) top no-repeat;
+}
+.smallpic{
+	width: 276px;
+	height: 56px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
 }
 .det_right{
-	width: 690px;
+	width: 686px;
 	height: 100%;
-	background: #d9d9d9;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+.pic{
+	width: 54px;
+	height: 56px;
+	border-left: 1px solid #d9d9d9;
+	border-collapse: collapse;
+	float:left;
+}	
+.sale{
+	width: 672px;
+	height: 246px;
+	background: #f2f2f2;
+	margin: 0 auto;
+}
+.sale-left{
+	height: 30px;
+	width: 562px;
+	margin: 10px;
+}
+.adr{
+	width: 50px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+	color: #666666;
+}
+.sale-left select{
+	width: 150px;
+	height: 30px;
+	border: 1px solid #d9d9d9;
+	background: #fff;
+	display: inline-block;
+	float: left;
+	margin: 16px;
+}
+.remainder{
+	width: 98px;
+	height: 30px;
+	display: inline-block;
+	float:left;
+	margin: 20px;
+	color: #666666;
 }
